@@ -1,0 +1,7 @@
+#!/bin/bash
+echo ">>> Nova Log Activated"
+echo "Timestamp: $(date)" >> nova.log
+echo "Event: GitHub Pages Deployed" >> nova.log
+echo "------" >> nova.lo
+- name: Run Nova Logger
+  run: bash nova_log_hook.sh
