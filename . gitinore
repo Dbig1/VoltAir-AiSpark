@@ -1,0 +1,17 @@
+# Replit-specific
+.replit
+.replit.hidden/
+*.replit
+*.replit.hidden
+.replit-storage.json
+
+# Node
+node_modules/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment
+.en
